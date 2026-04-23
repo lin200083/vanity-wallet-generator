@@ -1,0 +1,6 @@
+bin/
+logs/
+state/
+results/
+native/*/target/
+*.tmp
