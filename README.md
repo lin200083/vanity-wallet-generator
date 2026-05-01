@@ -2,7 +2,7 @@
 
 这是一个在 Windows PowerShell 里运行的 **EVM 靓号钱包地址生成器**。
 
-新手建议直接下载 GitHub Releases 里的 `vanity-wallet-generator-windows-x64-v1.1.0.zip`，解压后在文件夹里运行：
+新手建议直接下载 GitHub Releases 里“最新版本”的 Windows x64 压缩包（文件名通常类似 `vanity-wallet-generator-windows-x64-vX.Y.Z.zip`），解压后在文件夹里运行：
 
 ```powershell
 .\start-native.ps1
@@ -339,7 +339,7 @@ workers    当前 worker 数量
 
 它会使用一个几乎不可能在短时间内命中的目标，只跑固定秒数，用来观察 `rate`。
 
-这台机器实测大约：
+以下是示例机器的实测范围（仅供参考，不代表你的电脑）：
 
 ```text
 8 个 worker    1,700,000 到 2,000,000 地址/秒
